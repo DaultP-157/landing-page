@@ -1,1 +1,1 @@
-# landing-page
+This is the first project that I do from scratch!
