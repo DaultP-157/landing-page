@@ -14,6 +14,7 @@ body {
 
 .top-part {
     display: flex;
+    padding-bottom: 100px;
 }
 
 .top-left {
@@ -57,14 +58,56 @@ h1 {
 }
 
 button {
-    font-size: 28px;
+    font-size: 20px;
     background-color: #3882F6;
     color: white;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .right {
-    outline: 2px solid red;
+    text-align: center;
     background-color: grey;
     flex: 1;
+}
+
+.mid-page {
+    padding: 100px;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.square-text {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    outlin: 2px solid red;
+}
+
+.boxes {
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.squares {
+    border-radius: 20px;
+    display: flex;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
+
+.texts {
+    text-align: center;
+    padding-top: 30px;
 }
 
