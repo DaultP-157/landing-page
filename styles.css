@@ -29,7 +29,7 @@ body {
 .top-right {
     display: flex;
     font-size: 18px;
-    gap: 10px;
+    gap: 20px;
     justify-content: flex-end;
     flex: 1;
     background-color: #1F2937;
@@ -45,6 +45,7 @@ body {
 .left {
     flex: 1;
     background-color: #1F2937;
+    margin-right: 20px;
 }
 
 h1 {
@@ -73,42 +74,63 @@ button {
     flex: 1;
 }
 
-.mid-page {
+  {
+    outline: 2px solid red;
+}
+
+.tmid-page {
     padding: 100px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 h2 {
     text-align: center;
-    padding-bottom: 20px;
-}
-.square-text {
-    display: flex;
-    justify-content: center;
-}
-
-* {
-    outlin: 2px solid red;
 }
 
 .boxes {
-    justify-content: center;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-}
-.squares {
-    border-radius: 20px;
-    display: flex;
-    border: 4px solid #3882F6;
+.boxe {
     width: 200px;
-    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
 }
 
 .texts {
-    text-align: center;
-    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 120px;
 }
 
+.text {
+    width: 200px;
+    text-align: center;
+}
+
+.bmid-page {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.boite {
+    padding: 75px;
+}
+
+.insp-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+}
